@@ -1,0 +1,12 @@
+.row>div{
+    width: calc(100% / 8);
+    float: left;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+.row:nth-child(odd)>div:nth-child(even){
+    background: black;
+}
+.row:nth-child(even)>div:nth-child(odd){
+    background:black;
+}
